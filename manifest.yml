@@ -2,5 +2,6 @@ applications:
 - name: HelloJenkins
   instances: 1
   memory: 256M
+  host: jenhw
   buildpack: https://github.com/cloudfoundry/java-buildpack.git
   path: target/HelloMJenkins-0.0.1-SNAPSHOT
